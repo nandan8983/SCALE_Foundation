@@ -1,0 +1,129 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.card-text {
+  font-size: 1.10rem;
+  margin-left: 50px;
+
+}
+.white{
+    color: #ffffff;
+}
+.blue{
+    color: #004AAB;
+}
+
+.ylw {
+    color: #ffd359;
+}
+.bg-yellow{
+    background-color: #ffd359;
+    height: 94vh;
+}
+.lblue{
+    color: #73b4c6;
+}
+.blueBack{
+    background-color: #67c1da;
+    box-shadow: 0 0 5px 10px #78c4d8;
+}
+#area-of-work{
+    margin-top: 10%;
+    padding: 0 0 0 5%;
+}
+@media screen and (max-width: 720px){
+    #area-of-work{
+        margin-top: 0%;
+    }
+    
+    
+}
+.green{
+    color: #0ca647;
+}
+.red{
+    color: #d61717;
+}
+
+.btn{
+    min-width: 20rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    border-radius: 1.5rem;   
+    border-color: var(--color-primary);
+    margin-top: 15px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+.welcome {
+    background-color: #f8f9fa;
+    position: relative;
+    z-index: 100;
+    width: 140%;
+    left: -20%;
+    /* padding-left: 20%; */
+    /* padding-right: 20%; */
+    border-radius: 0 0 60% 60%;
+}
+.w2 {
+    /* padding: 0 50px 0 32px; */
+    width: 60%;
+}
+
+.btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btnDonate:hover {
+  background-color: #ffd359;
+  color: #000000;
+  
+}
+.card-text{
+    font-size: 1rem;
+    margin-left: 50px;
+}
+.card-title{
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+.ds{
+z-index: 100;
+ background-color: #ffffff; 
+ position: relative; 
+ border-radius: 0 0 60% 60%; 
+ height: 60vh;
+}
+
+.donate{
+    background-color: #696969;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+.donate:hover{
+    background-color: #ffd359;
+    color: #000000;
+}
+.bg-red{
+    background-color: #d61717;
+    height: 94vh;
+}
